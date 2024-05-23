@@ -144,3 +144,16 @@ button:hover{
   border: #151515 3px solid;
   height:100%;
 }
+
+#buttons-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background-color: #EEEEEE;
+  border-radius: 2%;
+  box-shadow: 2px 2px 5px 0.5px #A91D3A;
+  padding: 1rem;
+}
