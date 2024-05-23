@@ -75,7 +75,7 @@ gridContainer.addEventListener('mouseover', function(e){
   let target = e.target;
   if(target.classList.contains('grid-item')){
   if(!eraseState){
-    drawingColor= rainbowMode ? colors[Math.floor((Math.random() * 20) - 1)]: drawingColor
+    drawingColor= rainbowMode ? colors[Math.floor((Math.random() * 20) - 1)]: penColor.value;
   }
     target.style.backgroundColor = drawingColor;
   }
