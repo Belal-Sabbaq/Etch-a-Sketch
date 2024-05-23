@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch a Sketch</title>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kode+Mono:wght@400..700&display=swap"
+  rel="stylesheet">
+</head>
+<body>
+  <h1>let's do Something Fun !!</h1>
+  <div id="main-section">
+    <div id="controller">
+      <h2>Handling Stuff</h2>
+      <div class="color-picker">
+        <div class="pen">
+          <h2>
+            <label for="pen-color-value">Pen Color</label>
+          </h2>
+          <input type="color" id="pen-color-value" value="#C73659">
+        </div>
+        <div class="grid-color">
+          <h2>
+            <label for="grid-color-value">Grid Color</label>
+          </h2>
+          <input type="color" id="grid-color-value" value="#EEEEEE">
+        </div>
+        <div class="grid-size">
+          <h2>
+            <label for="grid-size-value">Grid Size</label>
+          </h2>
+          <input type="range" id="grid-size-value" min="1" max="100" value="16">
+      </div>
+    </div>  
+      <button id="rainbow-mode"> Rainbow Mode</button>
+      <button id="reset">RESET ME</button>
+    </div>
+    <div id="grid">
+      <h1>Enjoy!</h1>
+      <div class="main-container">
+        <!--
+          grid elements here boy
+        -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
